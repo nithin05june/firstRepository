@@ -1,0 +1,54 @@
+body{
+    background-color: tan;color:cornflowerblue;
+    background-image: url(my_photo.jpg);
+    background-position: center;
+} 
+p{
+    background-color:skyblue;
+}
+p{
+    color:rgb(42, 15, 15);
+    border-left-style:dotted;
+}
+pre{
+    color:red
+}
+#l1{
+    background-color:black
+}
+p{
+    font-size
+    border-style:double;
+    border-width:10px;
+    border-color:gold;
+    padding:10px;
+    border-radius:10px;
+}
+tr{
+    background-color:bisque;
+    color:black;
+}
+b{
+    border-top-style:dotted;
+    border-bottom-style:dotted;
+    border-top-color:red;
+    border-bottom-color:red;
+    border-left-style:double;
+    border-right-style:double;
+}
+/*Pseudo classes*/
+a:visited{
+    color:black;
+}
+a:hover{
+    color:red;
+}
+li:nth-child(even){
+    color: brown;
+}
+li:nth-child(odd){
+    color:green;
+}
+a:link{
+    color:yellowgreen;
+}

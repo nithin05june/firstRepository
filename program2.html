@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head><title>rowspan and colspan</title></head>
+    <style>
+        table{
+            border-top-style:dashed;
+            border-bottom-style:dotted;
+            border-top-color:red;
+            border-bottom-color:green;
+            border-top-width:bold;
+            border-bottom-width:thick;
+        }
+    </style>
+    <body>
+        <table border="5px">
+            <caption> fruit juice drinks</caption>
+            <tr>
+                <td rowspan="2"></td>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <th> apple </th>
+                <th> orange </th>
+                <th> pineapple </th>
+            </tr>
+            <tr>
+                <th> breakfast </th>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+            </tr>
+            <tr align="center">
+                <th> Lunch </th>
+                <td align="left">1</td>
+                <td>0</td>
+                <td align="right">0</td>
+            </tr>
+            <tr>
+                <th><br/> Dinner <br/><br/></th>
+                <td valign="top">top</td>
+                <td>0</td>
+                <td valign="bottom">bottom</td>
+            </tr>
+        </table><br/><br/><br/>
+        <table border="5" cellspacing="10" cellpadding="30">
+            <tr>
+                <td> small scpacing </td>
+                <td> large padding </td>
+            </tr>
+        </table><br/><br/><br/>
+        <table border="5" cellspacing="30" cellpadding="10">
+            <tr>
+                <td>
+                    large spacing
+                </td>
+                <td> small padding </td>
+            </tr>
+        </table><br/><br/><br/>
+    </body>
+</html>
